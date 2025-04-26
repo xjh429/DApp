@@ -9,7 +9,7 @@ import (
 	"github.com/ethereum/go-ethereum/ethclient"
 )
 
-var infuraURL = "https://sepolia.infura.io/v3/7b1fa69140104695952dbc1a6865ef1e"
+var infuraURL = "https://sepolia.infura.io/v3/xxx"
 
 func main() {
 	client, err := ethclient.DialContext(context.Background(), infuraURL)
